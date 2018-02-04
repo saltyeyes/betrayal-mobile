@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "BetrayalCharacterSheet",
+  "short_name": "BetrayalCharacterSheet",
+  "version": "es.saltyey.betrayal",
+  "description": "Brand new cordova project!",
+  "author": "Apache Cordova Team",
+  "icons": [],
+  "start_url": "index.html"
+}
