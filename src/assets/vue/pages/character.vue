@@ -10,7 +10,7 @@
       </f7-nav-right>
     </f7-navbar>
     <div class="card">
-      <div class="card-header">Stats:</div>
+      <div class="card-header">Stats</div>
       <div class="card-content">
         <div class="list">
           <ul>

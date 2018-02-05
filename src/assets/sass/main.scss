@@ -252,8 +252,15 @@ $statColors: (
   .stat-tracker.#{$statName} {
   	// border-top: 6px solid $colorValue;
 
-  	.col-25:first-child, .swiper-slide-active {
+  	.col-25:first-child, 
+  	// .swiper-slide-active,
+  	.stat-title {
   		background-color: $colorValue;
+  	}
+
+  	.swiper-static-background {
+  		border: 3px solid lighten($colorValue, 25%);
+  		box-sizing: border-box;
   	}
 
   	.stat-dec, .stat-inc {
@@ -263,49 +270,120 @@ $statColors: (
   			border-radius: 0;
   		}
   	}
+
+  	.stat-buttons {
+  	// 	background-color: lighten($colorValue, 35%);
+			// color: black;
+			// border-radius: 0;
+  		position: relative;
+  		&:before {
+  			content: "";
+  			// border-left: 3px solid lighten($colorValue, 35%);
+  			border-left: 1px solid rgba(0,0,0,0.1);
+  			position: absolute;
+		    top: 0;
+		    left: 0;
+		    bottom: 0;
+		    right: 0;
+  		}
+  	}
+
+  	.stat-step-start {
+  		// border-bottom: 3px solid $colorValue;
+  		&:after {
+  			content: "";
+  			// border-bottom: 3px solid $colorValue;
+  			border-bottom: 3px solid rgba(0,0,0,0.3);
+  			position: absolute;
+		    top: 0;
+		    left: 0;
+		    bottom: 0;
+		    right: 0;
+  		}
+  	}
   }
 }
 
-.stat-tracker {
-	.stat-title {
-		font-size: 1.4em;
-    line-height: 28px;
-    padding: 12px 0;
-    text-align: center;
-	}
-	.stat-buttons {
-		font-size: 0;
-		line-height: 0;
-		.icon {
-		  font-size: 1em;
-		}
+// .stat-tracker {
+// 	&.speed     { .stat-step-start { background-color: lighten(map-get($statColors, speed),     45%) } }
+// 	&.might     { .stat-step-start { background-color: lighten(map-get($statColors, might),     38%) } }
+// 	&.sanity    { .stat-step-start { background-color: lighten(map-get($statColors, sanity),    45%) } }
+// 	&.knowledge { .stat-step-start { background-color: lighten(map-get($statColors, knowledge), 45%) } }
+// }
 
-		.button {
-			display: inline-block;
-		  line-height: 2em;
-		  padding: 12px 0;
-		  width: 50%;
-		  height: auto;
-		  min-width: auto;
-		  max-width: none;
-		  min-height: auto;
-		  max-height: none;
+.list {
+	.stat-tracker {
+		&:not(:last-child) {
+			// border-bottom: 1px solid rgba(0,0,0,0.1);
+			border-bottom: 3px solid white;
 		}
-	}
-	.stat-swiper {
-		.swiper-container {
-			background-color: #bbb;
-			.swiper-wrapper {
-				background-color: white;
-				.swiper-slide {
-					// background-color: white;
-					width: 42px;
-					padding: 12px 0;
-					line-height: 2em;
-					text-align: center;
-					transition: background-color 100ms ease-in;
+		&.item-content {
+			padding-left: 0;
+		}
+		.stat-title {
+			font-size: 1.8em;
+			color: white;
+	    line-height: 28px;
+	    padding: 12px 0;
+	    text-align: center;
+		}
+		.stat-buttons {
+			font-size: 0;
+			line-height: 0;
+
+			.button {
+				// display: inline-block;
+			  line-height: 2em;
+			  padding: 12px 0;
+			  // width: 50%;
+			  height: auto;
+			  min-width: auto;
+			  max-width: none;
+			  min-height: auto;
+			  max-height: none;
+			  .icon {
+				  font-size: 1.2em;
 				}
 			}
 		}
+		.stat-swiper {
+			.swiper-container {
+				// background-color: #bbb;
+				.swiper-static-background {
+					position: absolute;
+					left: calc((100% - 42px) / 2);
+					top: calc((100% - 52px) / 2);
+					width: 42px;
+					height: 52px;
+					z-index: 1000;
+				}
+				.swiper-wrapper {
+					// background-color: white;
+					.swiper-slide {
+						// background-color: white;
+						box-sizing: border-box;
+						width: 42px;
+						font-size: 16px;
+						line-height: 28px;
+						padding: 12px 0;
+						// line-height: 2em;
+						text-align: center;
+						transition: background-color 100ms ease-in;
+
+						&.stat-step-dead {
+							font-size: 20px;
+						}
+						// &.stat-step-start:not(.stat-step-active) {
+						&.stat-step-start {
+							// background-color: #f0f0f0;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.stat-title {
+		font-size: 24px;
 	}
 }
