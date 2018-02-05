@@ -21,6 +21,8 @@ import MaterialIcons from 'material-design-icons/iconfont/material-icons.css'
 // Import App Custom Styles
 import AppStyles from './assets/sass/main.scss'
 
+import BetrayalIcons from './assets/sass/betrayal-icons.scss'
+
 // Import Routes
 import Routes from './routes.js'
 

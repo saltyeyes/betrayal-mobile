@@ -9,7 +9,16 @@
         <f7-link icon-if-ios="f7:menu" icon-if-md="material:settings_backup_restore" @click="resetCharacter({characterId})"></f7-link>
       </f7-nav-right>
     </f7-navbar>
-    <stat-tracker v-for="stat in stats" :statId="stat.id" :characterId="characterId" :key="stat.id"></stat-tracker>
+    <div class="card">
+      <div class="card-header">Stats:</div>
+      <div class="card-content">
+        <div class="list">
+          <ul>
+            <stat-tracker v-for="stat in stats" :statId="stat.id" :characterId="characterId" :key="stat.id"></stat-tracker>
+          </ul>
+        </div>
+      </div>
+    </div>
     <f7-block strong>
       <f7-block-title>{{ characterInfo.name }}</f7-block-title>
       <f7-block-header>{{ characterInfo.race }} {{ characterInfo.class }}</f7-block-header>

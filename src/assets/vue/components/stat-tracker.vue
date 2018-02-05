@@ -13,23 +13,32 @@
     data-centered-slides='true' 
     data-space-between=30
   > -->
-  <div class="stat-tracker row" :class="[statId]">
-    <!-- <div class="col-15 stat-title">{{ statInfo.name }}</div> -->
-    <div class="col-75 stat-swiper">
-      <div class="swiper-container" >
-        <div class="swiper-wrapper">
-          <div class="swiper-slide" v-for="(step, index) in charStat.steps" :class="[index == position ? 'stat-step-active' : '', index == 0 ? 'stat-step-dead' : '']">
-            <template v-if="index == 0">&#9760;</template>
-            <template v-else>{{ step }}</template>
+  <li class="item-content">
+    <div class="item-inner">
+      <div class="item-title-row">
+        <div class="item-title"><i :class="'btray-'+statInfo.name"></i></div>
+      </div>
+      <div class="item-subtitle">
+        <div class="stat-tracker row" :class="[statId]">
+          <!-- <div class="col-15 stat-title">{{ statInfo.name }}</div> -->
+          <div class="col-75 stat-swiper">
+            <div class="swiper-container" >
+              <div class="swiper-wrapper">
+                <div class="swiper-slide" v-for="(step, index) in charStat.steps" :class="[index == position ? 'stat-step-active' : '', index == 0 ? 'stat-step-dead' : '']">
+                  <template v-if="index == 0">&#9760;</template>
+                  <template v-else>{{ step }}</template>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-25 stat-buttons">
+            <f7-button icon-f7="icon-delete" @click="decreaseStat()"></f7-button>
+            <f7-button icon-f7="icon-add" @click="increaseStat()"></f7-button>
           </div>
         </div>
       </div>
     </div>
-    <div class="col-25 stat-buttons">
-      <f7-button icon-f7="icon-delete" @click="decreaseStat()"></f7-button>
-      <f7-button icon-f7="icon-add" @click="increaseStat()"></f7-button>
-    </div>
-  </div>
+  </li>
 </template>
 
 <script>
