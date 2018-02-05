@@ -293,7 +293,7 @@ $statColors: (
   		&:after {
   			content: "";
   			// border-bottom: 3px solid $colorValue;
-  			border-bottom: 3px solid rgba(0,0,0,0.3);
+  			border-bottom: 2px solid rgba(0,0,0,0.3);
   			position: absolute;
 		    top: 0;
 		    left: 0;
@@ -313,9 +313,12 @@ $statColors: (
 
 .list {
 	.stat-tracker {
-		&:not(:last-child) {
+		&:not(:first-child) {
 			// border-bottom: 1px solid rgba(0,0,0,0.1);
-			border-bottom: 3px solid white;
+			border-top: 3px solid white;
+		}
+		&:not(:last-child) {
+			border-bottom: 1px solid rgba(0,0,0,0.1);
 		}
 		&.item-content {
 			padding-left: 0;
