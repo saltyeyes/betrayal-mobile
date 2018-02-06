@@ -19,10 +19,19 @@ export const DECREASE_STAT = (state, {characterId, statId}) => {
 }
 
 export const RESET_CHARACTER = (state, {characterId}) => {
-  var stats = state.characters[characterId.toString()].stats
-  var defaultStats = JSON.parse(JSON.stringify(state.defaultCharacters[characterId.toString()].stats))
+  var character = state.characters[characterId.toString()]
+  var stats = character.stats
+  // var defaultStats = JSON.parse(JSON.stringify(state.defaultCharacters[characterId.toString()].stats))
   for (var stat in stats) {
     stats[stat]['position'] = stats[stat]['start']
   }
-  state.characters[characterId].resets += 1
+  if (character.special.options && typeof character.special.chosen != "undefined") {
+    character.special.chosen = -1;
+  }
+  character.resets += 1
+}
+
+export const UPDATE_CHOSEN_SPECIAL_OPTION = (state, {characterId, optionId}) => {
+  var character = state.characters[characterId.toString()]
+  character.special.chosen = optionId
 }

@@ -23,7 +23,7 @@
     name: 'character-grid',
     methods: {
       imageName: function(character) {
-        return 'static/images/char-token-'+character.color+'.png'
+        return 'static/images/char-'+character.id+'.png'
       },
     },
     computed: {

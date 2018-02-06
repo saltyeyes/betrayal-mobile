@@ -12,7 +12,7 @@ import Framework7Vue from 'framework7-vue'
 // import Framework7ThemeColors from 'framework7/dist/css/framework7.ios.colors.min.css'
 
 // OR for Material Theme:
-import Framework7Theme from 'framework7/dist/css/framework7.md.min.css'
+import Framework7Theme from './assets/less/framework7.less'
 // import Framework7ThemeColors from 'framework7/dist/css/framework7.material.colors.min.css'
 
 import Framework7Icons from 'framework7-icons/css/framework7-icons.css'

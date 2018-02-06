@@ -44,7 +44,8 @@ let config = function (env) {
         {test: /\.scss$/, loader: [ 'vue-style-loader', 'css-loader', 'sass-loader']},
         {test: /\.sass$/, loader: [ 'vue-style-loader', 'css-loader', 'sass-loader?indentedSyntax']},
         {test: /\.vue$/, loader: 'vue-loader', options: { postLoaders: {html: 'babel-loader'}}},
-        {test: /\.js$/, exclude: /(node_modules|bower_components)/, use: {loader: 'babel-loader', options: {presets: ['babel-preset-env']}}}
+        {test: /\.js$/, exclude: /(node_modules|bower_components)/, use: {loader: 'babel-loader', options: {presets: ['babel-preset-env']}}},
+        {test: /\.less$/, loader: ["vue-style-loader", "css-loader", "less-loader"]}
       ]
     },
     

@@ -13,3 +13,7 @@ export const decreaseStat  = ({ commit }, payload) => {
 export const resetCharacter  = ({ commit }, payload) => { 
   commit('RESET_CHARACTER', payload)
 }
+
+export const updateChosenSpecialOption  = ({ commit }, payload) => { 
+  commit('UPDATE_CHOSEN_SPECIAL_OPTION', payload)
+}
