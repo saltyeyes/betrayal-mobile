@@ -19,12 +19,13 @@
         </div>
       </div>
     </div>
-    <f7-block strong>
-      <f7-block-title>{{ characterInfo.name }}</f7-block-title>
-      <f7-block-header>{{ characterInfo.race }} {{ characterInfo.class }}</f7-block-header>
-      <p>Special: {{ characterInfo.special.name }}</p>
-
-    </f7-block>
+    <div class="card">
+      <div class="card-header">{{ characterInfo.name }}</div>
+      <div class="card-content card-content-padding">
+        <p>{{ characterInfo.race }} {{ characterInfo.class }}</p>
+        <p>Special: {{ characterInfo.special.name }}</p>
+      </div>
+    </div>
   </f7-page>
 </template>
 

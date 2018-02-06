@@ -252,6 +252,12 @@ $statColors: (
   .stat-tracker.#{$statName} {
   	// border-top: 6px solid $colorValue;
 
+  	&:not(:last-child) {
+			.stat-title {
+				border-bottom: 1px solid $colorValue;
+			}
+		}
+
   	.col-25:first-child, 
   	// .swiper-slide-active,
   	.stat-title {
@@ -314,12 +320,18 @@ $statColors: (
 .list {
 	.stat-tracker {
 		&:not(:first-child) {
-			// border-bottom: 1px solid rgba(0,0,0,0.1);
-			border-top: 3px solid white;
+			// border-top: 3px solid white;
 		}
+		// &:not(:last-child) {
+		// 	border-bottom: 1px solid rgba(0,0,0,0.1);
+		// }
+
 		&:not(:last-child) {
-			border-bottom: 1px solid rgba(0,0,0,0.1);
+			.stat-swiper, .stat-buttons {
+				border-bottom: 1px solid rgba(0,0,0,0.1);
+			}
 		}
+
 		&.item-content {
 			padding-left: 0;
 		}
@@ -350,6 +362,7 @@ $statColors: (
 			}
 		}
 		.stat-swiper {
+			// border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 			.swiper-container {
 				// background-color: #bbb;
 				.swiper-static-background {
