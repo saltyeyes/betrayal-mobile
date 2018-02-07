@@ -1,0 +1,225 @@
+baldurs:
+  1:  name:   Do Beholders Dream of Electric Eye Rays?  
+      author: Ben Petrisor 
+      flavor:
+        - Your master, the beholder Brakxus, descends from above, its slimy eyestalks seeking a target.
+        - "What is your bidding, my master?" you ask.
+        - "Tonight, I shall dream an army, and we shall enslave this city!"
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+            - Place the large Beholder monster token on your adventurer's tile.
+            - Get the Turn/Damage track and set the slider equal to twice the number of adventurers. This represents the Beholder's hit points.
+            - Set aside all of the triangular quest tokens. These represent magical barriers that prevent the Beholder from dreaming.
+            - Set aside a number of small monster tokens equal to the number of adventurers. These represent Beholderkin.
+        - title: What You Know About the Heroes
+          body:
+            - They are trying to stop your master by driving it insane!
+        - title: You Win When...
+          style: list-or
+          body:
+            - you have killed all the heroes
+            - the number of Beholderkin on the board equals the number of adventurers.
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - If the Beholder is asleep (it's flipped to its "S" side), flip its token back over.
+        - title: Allowing the Beholder to Sleep
+          body:
+            - If the Beholder can no longer sleep (because all omen tiles have quest tokens on them), instead of attacking, you may attempt a Knowledge or Sanity 4+ roll while on an omen tile to let it dream again. If you succeed, remove all quest tokens from the board.
+        - title: You Must Do This at the Start of the Monster Turn
+          body:
+            - If there is at least one omen tile without a quest token on it, the Beholder's dreams will continue. Otherwise, if all omen tiles have quest tokens, the Beholder goes insane, as it has no way to sleep.
+        - title: Beholder
+          style: monster-block
+          icon:  beholder
+          stats:
+            might: 5
+            speed: 3
+            knowledge: 6
+            sanity: 6
+          rules:
+            - body:
+              - The Beholder acts first, then the Beholderkin.
+            - title: Special Beholder Attack Rules
+              style: list
+              body:
+                - The Beholder can attack a target on its tile or an adjacent connected tile. When it takes an attack action, it can attack up to two targets within range. It cannot attack the same target twice. If it loses an attack against a target that is not on its tile, it takes no damage.
+                - If the Beholder is insane, it must attempt to attack the closest of the traitor and/or Beholderkin. Otherwise it can attack heroes within range.
+                - Roll 2 dice to determine which eye ray the Beholder uses with each attack. The listed effect is in addition to any damage inflicted
+                - style: roll-table
+                  outcomes:
+                    - rolls: [0, 1]
+                      title: Disintegration Ray
+                      text: Make a Might attack
+                    - rolls: [2]
+                      title: Slowing Ray
+                      text: Make a Speed attack. On a success, the target can move a maximum of 2 spaces on their next turn.
+                    - rolls: [3]
+                      title: Telekinetic Ray
+                      text: Make a Knowledge attack. On a success, place the target on the nearest tile with an opponent if possible.
+                    - rolls: [4]
+                      title: Enervation Ray
+                      text: Make a Sanity attack. On a success, the target rolls 1 fewer die on their next attack.
+        - title: Damaging the Beholder
+          body:
+            - Whenever the Beholder takes damage, move the slider down the Turn/Damage track by that amount. If it reaches 0, the Beholder has been killed.
+        - title: Beholder Dreaming
+          body:
+            - If the Beholder ends its turn on an omen tile without a quest token, it falls asleep. Flip its token over to the stunned ("S") side. While it is sleeping, it spawns a Beholderkin. Place a small monster token on its stunned ("S") side on an adjacent tile that doesn't already contain a Beholderkin token, if possible. Then place a quest token on the Beholder's tile.
+            - If the number of Beholderkin tokens on the board equals the number of adventurers, the traitor wins!
+        - title: Beholderkin
+          style: monster-block
+          stats:
+            might: 4
+            speed: 3
+            knowledge: 4
+            sanity: 4
+        - title: If You Win...
+          body:
+            - You are surrounded by your master and its brood. "You have served me well." Brakxus says, as its eyes takein the corpses of your former comrades. "Soon Baldur's Gate will fall, and all will serve Brakxus!"
+  2:  name:   Glurk Rises  
+      author: Adam Lee
+      flavor:
+        - You finally reveal your previous self to be an illusion. It's goblin time!
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor. You were Glurk all along, the infamous goblin overlord who seeks to enslave Baldur's Gate.
+            - If your Speed and/or Might traits are below their starting values, reset them to their starting values.
+            - Gain 2 Speed and 2 Might
+            - Collect a number of small monster tokens equal to twice the number of heroes, representing Goblins. Place them on your tile.
+            - On a piece of paper, secretly write down a tile on the catacomb level to represent the slave pens. Keep this hidden from the heroes until you bring the first hero there and remove them from the game.
+        - title: What You Know About the Heroes
+          body:
+            - They are trying to kill you.
+        - title: You Win When...
+          body:
+            - ...all the heroes are either killed or removed from the game.
+        - title: Enslaving a hero
+          body:
+            - When you or your Goblins defeat a hero in combat, in addition to taking damage, that hero becomes {enslaved|bold}. An enslaved hero must be taken to the tile you designated as the slave pens to be removed from the game. If they are freed before they reach the slave pens, they are returned to their player's control.
+            - Once a hero is enslaved, lay the adventurer figure on its side.
+        - title: Moving an Enslaved hero
+          body:
+            - Whenever you or a Goblin exits a tile containing an enslaved hero, you may move the hero as well. Each Goblin can carry only one hero at a time, but it can pass them off to another Goblin, which can then move the hero again. Thus an enslaved hero can be moved multiple times per monster turn.
+            - As soon as an enslaved hero is moved onto the slave pens tile, remove them from the game. They have been sacrificed to Maglubiyet.
+        - title: Calling More Goblins
+          body:
+            - Instead of moving during your traitor turn, you may roll 2 dice, then put that many Goblin tokens on your tile or any tile(s) containing a Goblin.
+        - title: Goblin
+          style: monster-block
+          icon:  goblin
+          stats:
+            might: 1
+            speed: 3
+            knowledge: 2
+            sanity: 2
+          rules: 
+            - title: Special Goblin Mob Attack Rules
+              body:
+                - Two or more Goblins on the same tile can add their Might scores together to make a single mob attack roll against a hero on that tile (maximum of 8 dice).
+                - If the Goblins lose, distribute any damage inflicted among the participating Goblins (no more than 1 point each). Stun each Goblin that takes damage in this way.
+        - title: If You Win...
+          body:
+            - You stand defiant with your swarms of goblins, all united under your iron fist, their eyes filled with bloodlust and awaiting your commands. Buildings are ablaze and the sounds of people in panic fill your pointy ears with glee. You shriek with goblin fury, "Tonight we crush the humans! Tonight we feast on the bones of Baldur's Gate!"
+  3:  name:   Hulking Vengeance  
+      author: Adam Lee
+  4:  name:   Troll Hunt!  
+      author: Ben Petrisor
+  5:  name:   Labyrinth  
+      author: Chris Dupuis
+  6:  name:   The Gulthias Tree  
+      author: Christ Tulach & Kat Kruger
+  7:  name:   Tonight's Special: Brains!  
+      author: Adam Lee
+  8:  name:   Staking you Claim  
+      author: Adam Lee
+  9:  name:   Alone Against the Dead  
+      author: Adam Lee
+  10: name:   Rabble Rousers  
+      author: Mike Mearls 
+  11: name:   You'll have the House Slaad with that 
+      author: Sam Simpson 
+  12: name:   Blackrazor  
+      author: Bart Carroll
+  13: name:   Juiblex Commands  
+      author: Chris Dupuis 
+  14: name:   The Battle For Baldur's Gate  
+      author: Mike Mearls
+  15: name:   Vermin Sweep  
+      author: Adam Lee
+  16: name:   Need a Hand?  
+      author: Mike Mearls 
+  17: name:   An Eye in the Sky  
+      author: Mike Mearls
+  18: name:   Rats on a Pier  
+      author: Chris Dupuis
+  19: name:   Thick as Thieves  
+      author: David Mcdarby
+  20: name:   They Hide Among Us  
+      author: Chris Dupuis 
+  21: name:   Priscilla  
+      author: Adam Lee
+  22: name:   Battle of the Bhaalspawn  
+      author: Adam Lee
+  23: name:   The Piper of Bhaal  
+      author: Adam Lee
+  24: name:   A Pufflebird in the Hand...  
+      author: Adam Lee
+  25: name:   For the Glory of Tyr   
+      author: Dan Fairchild & Diane Molinari
+  26: name:   Call of the Draakhorn  
+      author: Ben Petrisor
+  27: name:   Ravenloft Calls  
+      author: Mike Mearls
+  28: name:   The Mad Wizards   
+      author: Adam Lee
+  29: name:   Bottle Lightning  
+      author: Adam Lee
+  30: name:   Darkness Falls  
+      author: Chris Dupuis
+  31: name:   Pipes of the Banshee  
+      author: Christ Dupuis
+  32: name:   Sphere of Annihilation  
+      author: Chris Dupuis
+  33: name:   The Will of Yeenoghu  
+      author: Ben Petrisor 
+  34: name:   Two Heads are Worse than One  
+      author: Ben Petrisor 
+  35: name:   A Mother's Fury  
+      author: Dan Fairchild & Diane Molinari
+  36: name:   The Big Score  
+      author: Adam Lee
+  37: name:   A Killer Among Us  
+      author: Chris Dupuis
+  38: name:   Fire in the Sky  
+      author: Chris Dupuis
+  39: name:   The Death Curse  
+      author: Chris Dupuis
+  40: name:   Infernal Machine  
+      author: Bart Carroll
+  41: name:   Hail Olhydra!  
+      author: Bart Carroll
+  42: name:   Rust Monsters to the Rescue!   
+      author: Bart Carroll
+  43: name:   Stickleback  
+      author: Adam Lee
+  44: name:   By the Light of the Pale Moon  
+      author: Adam Lee 
+  45: name:   Forever Mead  
+      author: Michael Dunlap
+  46: name:   Master of Illusion  
+      author: Chis Tulach & Kat Kruger
+  47: name:   The Mark of Baphomet  
+      author: Tyson Moyer
+  48: name:   Demon Slayers  
+      author: Michael Dunlap
+  49: name:   The Dark Light of Bhaal  
+      author: Kim Lundstrom
+  50: name:   Down to the Wire  
+      author: Noah Millrod 

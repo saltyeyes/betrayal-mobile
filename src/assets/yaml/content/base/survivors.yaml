@@ -1,0 +1,2191 @@
+1:
+  title: The Mummy Walks
+  id: 1
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Banish the Mummy
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+2:
+  title: "The S\xE9ance"
+  id: 2
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Summon the Ghost
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Summon the Ghost First
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+3:
+  title: Frog-Leg Stew
+  id: 3
+  flavor: ''
+  sections:
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Kill the Witch
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Frogs
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+4:
+  title: The Web of Destiny
+  id: 4
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Destroy the Web and Eggs
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Exit the House
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+5:
+  title: I Was a Teenage Lycanthrope
+  id: 5
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Kill Werewolves
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Must Do This on Your Turn
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+6:
+  title: The Floating Eye
+  id: 6
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Must Do This on Your Turn
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+7:
+  title: Carnivorous Ivy
+  id: 7
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Create Plant Spray
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Must Do This on Your Turn
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+8:
+  title: Wail of the Banshee
+  id: 8
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Banish the Banshee
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+9:
+  title: The Dance of Death
+  id: 9
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Banish the Fiddler
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Must Do This on Your Turn
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+10:
+  title: Family Gathering
+  id: 10
+  flavor: ''
+  sections:
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Trap Zombies
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+11:
+  title: Let Them In
+  id: 11
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How To Perform An Exorcism
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+12:
+  title: Fleshwalkers
+  id: 12
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: The Evil Twins Must...
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Evil Twins
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+13:
+  title: Perchance to Dream
+  id: 13
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Wake the Dreamer
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+14:
+  title: The Stars Are Right
+  id: 14
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Desecrate the Pentagram
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+15:
+  title: Here There Be Dragons
+  id: 15
+  flavor: ''
+  sections:
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Slay the Dragon
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+16:
+  title: The Phantom's Embrace
+  id: 16
+  flavor: ''
+  sections:
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Rescue the Girl
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Defuse the Bomb
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Escape from the House
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+17:
+  title: Bugs
+  id: 17
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Create the Bug Spray
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+18:
+  title: Offspring
+  id: 18
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Kill the Evil Plant
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Deal with the Spores
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+19:
+  title: The Beastmaster
+  id: 19
+  flavor: ''
+  sections:
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+20:
+  title: Ghost Bride
+  id: 20
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Stop the Ghost's Wedding
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+21:
+  title: House of the Living Dead
+  id: 21
+  flavor: ''
+  sections:
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+22:
+  title: The Abyss Gazes Back
+  id: 22
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How To Perform the Exorcism
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Must Do This on Your Turn
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Dealing with the Abyss
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+23:
+  title: Tentacled Horror
+  id: 23
+  flavor: ''
+  sections:
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Destroy the Creature
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Must Do This on Your Turn
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+24:
+  title: Fly Away Home
+  id: 24
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Drive Away the Bats
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Must Do This on Your Turn
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+25:
+  title: Voodoo
+  id: 25
+  flavor: ''
+  sections:
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Destroy the Dolls
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+26:
+  title: Pay the Piper
+  id: 26
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+27:
+  title: Amok Flesh
+  id: 27
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How To Destroy the Blob
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+28:
+  title: Ring of King Solomon
+  id: 28
+  flavor: ''
+  sections:
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+29:
+  title: Frankenstein's Legacy
+  id: 29
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Kill the Monster
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+30:
+  title: Tomb of Dracula
+  id: 30
+  flavor: ''
+  sections:
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Destroy Vampires
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+31:
+  title: It's Alive!
+  id: 31
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: The House
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+32:
+  title: Lost
+  id: 32
+  flavor: ''
+  sections:
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Must Do This on Your Turn
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Return the House
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+33:
+  title: Creature from the Lake
+  id: 33
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: The Lake
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Look for the Girl
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+34:
+  title: Mad, Mad World
+  id: 34
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Lock Up the Lunatics
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Capture the Lunatics
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+35:
+  title: Small Change
+  id: 35
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Being Small
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Using the Toy Airplane
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If a Cat Catches You
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+36:
+  title: Better with Friends
+  id: 36
+  flavor: ''
+  sections:
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Escape the House
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Effects of Flooding
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Slowing the Flood
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+37:
+  title: Checkmate
+  id: 37
+  flavor: ''
+  sections:
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Beat Death
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+38:
+  title: Hellbeasts
+  id: 38
+  flavor: ''
+  sections:
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Perform the Exorcism
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+39:
+  title: The Heir
+  id: 39
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+40:
+  title: Buried Alive
+  id: 40
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Rescue Your Friend
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: The Spirit Board
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+41:
+  title: Invisible Traitor
+  id: 41
+  flavor: ''
+  sections:
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Fighting Blind
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Skull and Spirit Board
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+42:
+  title: Comes the Hero
+  id: 42
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Kill the Traitor
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: The Animated Statue
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+43:
+  title: A Gathering of Shadows
+  id: 43
+  flavor: ''
+  sections:
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Complete the Ritual of Light
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Becoming a Specter
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+44:
+  title: Death Doth Find Us All
+  id: 44
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Must Do This On YourTurn
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Stop the Aging Process
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: The Medallion
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+45:
+  title: Tick, Tick, Tick
+  id: 45
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Stop the Traitor
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+46:
+  title: The Feast
+  id: 46
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: The Victims
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+47:
+  title: Worm Ouroboros
+  id: 47
+  flavor: ''
+  sections:
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Kill Ouroboros
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+48:
+  title: Stacked Like Cordwood
+  id: 48
+  flavor: ''
+  sections:
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Find the Cursed Weapon
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Must Do This on Your Turn
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+49:
+  title: You Wear It Well
+  id: 49
+  flavor: ''
+  sections:
+  - title: Right Now
+    tags:
+    - right-now
+    body:
+    - ''
+    - ''
+    - ''
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: How to Destroy the Astral Spirit
+    tags:
+    - how-to
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Souls
+    tags: []
+    body:
+    - ''
+    - ''
+    - ''
+  - title: Special Attack Rules
+    tags:
+    - special-attack-rules
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''
+50:
+  title: A Little Night Murder
+  id: 50
+  flavor: ''
+  sections:
+  - title: What You Know About the Bad Guys
+    tags:
+    - what-you-know
+    body:
+    - ''
+    - ''
+    - ''
+  - title: You Win When...
+    tags:
+    - you-win-when
+    body:
+    - ''
+    - ''
+    - ''
+  - title: If You Win...
+    tags:
+    - if-you-win
+    body:
+    - ''
+    - ''
+    - ''

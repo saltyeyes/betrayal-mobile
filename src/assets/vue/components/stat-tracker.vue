@@ -86,6 +86,14 @@
           });
           // console.log("reset:", newCount, oldCount, this.activeIndex, this.position);
         }
+      },
+      position: function(newPos, oldPos) {
+        if (this.activeIndex != newPos) {
+          this.$nextTick(function () {
+            this.swiper.slideTo(newPos);
+          });
+          // console.log("reset:", newCount, oldCount, this.activeIndex, this.position);
+        }
       } 
     },
     beforeDestroy() {

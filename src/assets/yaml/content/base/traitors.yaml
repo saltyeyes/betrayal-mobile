@@ -1,0 +1,2228 @@
+1:
+  title: The Mummy Walks
+  id: 1
+  flavor:
+    - The wall in front of you shivers and slides away to reveal an ancient sarcophagus, its curved lid dusty and covered with hieroglyphs. The hieroglyphs glow softly, drawing you to them. A raspy voice slides into your mind, saying, “I lost my bride more years ago than you could possibly comprehend. My tears are dust, but my love is still as strong as the sun. Now my love is reborn to me. Mortal hands shall not keep me from reuniting with her.”
+    = As the voice fades, you smile. It’s so clear. Your friends must die so the lovers can be reunited. As the lid slides off the sarcophagus, you turn to meet your new friend... your new god. 
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - Your character is still in the game but has turned traitor.
+      - Put the Mummy token (large) and the Sarcophagus token (pentagonal) in the room where the haunt was revealed.
+      - You lose the Girl and any bonuses from the Girl card. Put the Girl token (crimson) in any room on the same floor as the room where the haunt was and at least five tiles away from the Mummy. If no rooms are at least five tiles away, place her as far away as possible on that floor.
+      - Set aside the Girl card. When an explorer enters the same room as the Girl token, that player takes the Girl card.
+      - If you get the Girl, you can give her to the Mummy while you’re in the same room. The Mummy then becomes the Girl’s custodian. 
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - They’re trying to banish the Mummy back to the land of the dead. 
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ...the Mummy is the Girl’s custodian, has the Ring or the Holy Symbol, and returns with them to the room with the Sarcophagus, or else all heroes are dead. If neither the Ring nor the Holy Symbol is in play the next time you discover a room with an Omen symbol, search through the Omen deck and draw either card. 
+  - title: The Mummy Must Do This...
+    tags: []
+    body:
+      - ...during it's turn\: If the Mummy rolls a 0 or a 1 for its movement, it may use a secret passage to move to any space in the house.
+      - Once during the monster turn, the Mummy must attack one explorer in the same room (if it can).
+      - The Mummy can carry items and act as the Girl’s custodian, but the Girl and those items don’t affect his traits. You may transfer items and the Girl to the Mummy if you are in the same space. 
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - The Mummy makes Might attacks but inflicts Speed damage until its opponent’s Speed is at its lowest number. (This attack can’t lower that trait to the skull symbol.) After that, its opponent takes Might damage instead until he or she is dead.
+      - When the Mummy inflicts 2 or more points of damage with an attack, it can steal an item from its opponent instead of inflicting that damage. The Mummy can also take the Girl from her custodian this way.
+      - The Mummy is immune to Speed attacks (such as the Revolver and Dynamite). 
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - The girl sits crumpled in the corner, crying out to you for help. The mummy crosses the room and picks her up in its linen-clad arms. Slowly, tenderly, the mummy breathes into the wailing girl’s mouth. Her cries soften and her tears glow amber as her eyes turn upward.
+      - “My Priest, my love ... we are together once more,” croons the fragile girl, “and soon the world will worship us. Their flesh will be ours to burn, their souls ours to feast upon ... .”
+  - title: The Mummy
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     3
+      might:     8
+      sanity:    5
+2:
+  title: "The Séance"
+  id: 2
+  flavor: 
+    - "A dread chill descends upon the house, and a voice clatters through the air, “I must rest ... put my soul to rest ...or die ... .” As the words fade, the spirit board you are carrying begins to throb, matching the rhythm of your heart. Looking down at the board, you see the mist coil into letters on its surface:"
+    - style: spooky
+      text:  "K I L L T H E M A L L."
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - Your character is still in the game but has turned traitor.
+      - Set aside the Ghost token (light green).
+      - If the Pentagram Chamber isn’t in the house, search the room stack for it and put it next to a Basement doorway at least five tiles away from you. (If there are no Basement doorways at least five tiles away, put it as far away from you as you can.) Then shuffle that stack. 
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - They are trying to summon the Ghost before you do.
+      - If they succeed, they’ll gain control of the Ghost and receive a quest to complete.
+      - If they fail, they’ll try to destroy the Ghost instead. 
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ...all the heroes are dead, regardless of who summons the Ghost first.
+  - title: How to Summon the Ghost
+    tags:
+      - how-to
+    body:
+      - There’s a race between you and the other explorers to summon the Ghost. To summon it, you must conduct a séance.
+      - While you have the Spirit Board, you can attempt a Knowledge roll or a Sanity roll. During your turn, you can attempt only one of these rolls. A 5+ succeeds. When you’ve succeeded at one Knowledge roll and one Sanity roll, you’ve summoned the ghost.
+      - The heroes are also attempting Knowledge and Sanity rolls to summon the Ghost. If you succeed with your summoning before they do, put the Ghost token next to your character. If the other explorers succeed first, they will tell you what happens. 
+  - title: If You Summon the Ghost First...
+    tags: []
+    body:
+      - "Ghost’s declaration (read aloud):"
+      - style: read-aloud
+        text:  ”I will have my revenge against the living!”
+      - If the traitor dies, you keep control of the Ghost. The Ghost must move toward a hero during each turn you control it, attacking if it can.
+      - At the end of your first turn in control of the Ghost, the house begins collapsing. The first room to collapse must be the Attic (or, if the Attic isn’t in the house, any unoccupied upper floor room). After that, at the end of each explorer’s turn, tell that explorer to choose a new room to collapse.
+      - To collapse a room, choose a room tile and turn it over so its back is showing. A room can’t collapse unless it is adjacent to another collapsed room. The adjacent rooms don’t need to have connecting doors. Diagonal is not adjacent. If an occupied room collapses, all explorers in that room are killed (including you).
+      - Once the entire upper floor has collapsed, start collapsing the ground floor beginning with the Grand Staircase. Use tokens to mark the Grand Staircase, Foyer, and Entrance Hall as they collapse. Once the ground floor is gone, collapse the basement starting at the Basement Landing.
+      - If the Mystic Elevator’s roll would take it to a floor where there are no uncollapsed rooms with open doorways, then it does not move.
+      - Only the Ghost can pass through collapsed rooms. The Ghost can move through walls and collapsed rooms. You control the Ghost if you summon it first or if the heroes summon it first but then fail in their quest. 
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - No one can attack until after the séance has been completed.
+      - The Ghost makes Sanity attacks which cause mental damage. The possessor of the Ring or anyone in the Pentagram Chamber can make Sanity attacks against the Ghost.
+      - If the Ghost attacks and rolls lower than a hero, it is not harmed. 
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - The mists fill the house now, from top to bottom. You glide through them, as silent as the ghost hovering by your side. Your heartbeat slows and stills. Silence. Now there are two spirits destined to haunt this place together. Forever. 
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     4
+      sanity:    6
+3:
+  title: Frog-Leg Stew
+  id: 3
+  flavor:
+    - From the shadows, a voice entices you. “You’ll help me, won’t you, my plump little goose? Nasty people all over my house, and they’ve stolen my darling book, too! Help me punish them, my sweetling! There’s a good little poppet!”
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: The Witch's Spells
+    tags: []
+    body:
+      - ''
+  - title: You Must Do This During Your Turn
+    tags: []
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+4:
+  title: The Web of Destiny
+  id: 4
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: You Must Do This On Your Turn
+    tags: []
+    body:
+      - ''
+  - title: The Spider Must Do This...
+    tags: []
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+5:
+  title: I Was a Teenage Lycanthrope
+  id: 5
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: You Must Do This On Your Turn
+    tags: []
+    body:
+      - ''
+  - title: The Dog
+    tags: []
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+6:
+  title: The Floating Eye
+  id: 6
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+7:
+  title: Carnivorous Ivy
+  id: 7
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: Creepers
+    tags: []
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+8:
+  title: Wail of the Banshee
+  id: 8
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: The Banshee
+    tags: []
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+9:
+  title: The Dance of Death
+  id: 9
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: You Must Do This On Your Turn
+    tags: []
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+10:
+  title: Family Gathering
+  id: 10
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: Zombies
+    tags: []
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+11:
+  title: Let Them In
+  id: 11
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: How To Let the Specters In
+    tags: []
+    body:
+      - ''
+  - title: The Madman Must Do This...
+    tags: []
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+12:
+  title: Fleshwalkers
+  id: 12
+  flavor:
+    - ''
+  sections: []
+13:
+  title: Perchance to Dream
+  id: 13
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: How Nightmares Escape
+    tags: []
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+14:
+  title: The Stars Are Right
+  id: 14
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: How to Summon the God
+    tags:
+      - how-to
+    body:
+      - ''
+  - title: Cultists
+    tags: []
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+15:
+  title: Here There Be Dragons
+  id: 15
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: The Dragon
+    tags: []
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+16:
+  title: The Phantom's Embrace
+  id: 16
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: You Must Do This On Your Turn
+    tags: []
+    body:
+      - ''
+  - title: The Phantom
+    tags: []
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+17:
+  title: Bugs
+  id: 17
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: How to Destroy Ingredients
+    tags:
+      - how-to
+    body:
+      - ''
+  - title: The Spider
+    tags: []
+    body:
+      - ''
+  - title: The Roach
+    tags: []
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+18:
+  title: Offspring
+  id: 18
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: You Must Do This On Your Turn
+    tags: []
+    body:
+      - ''
+  - title: Spores
+    tags: []
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+19:
+  title: The Beastmaster
+  id: 19
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+20:
+  title: Ghost Bride
+  id: 20
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: Ghost Bride
+    tags: []
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: How to Get the Bride Married
+    tags:
+      - how-to
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+21:
+  title: House of the Living Dead
+  id: 21
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: Special Zombie Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: Special Zombie Lord Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+22:
+  title: The Abyss Gazes Back
+  id: 22
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: You Must Do This On Your Turn
+    tags: []
+    body:
+      - ''
+  - title: Each Player Must Do This Every Turn
+    tags: []
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+23:
+  title: Tentacled Horror
+  id: 23
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: You Must Do This On Your Turn
+    tags: []
+    body:
+      - ''
+  - title: Tentacle Tips
+    tags: []
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+24:
+  title: Fly Away Home
+  id: 24
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: The Heroes Must Do This...
+    tags: []
+    body:
+      - ''
+  - title: Bats
+    tags: []
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+25:
+  title: Voodoo
+  id: 25
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: You Must Do This On Your Turn
+    tags: []
+    body:
+      - ''
+  - title: Voodoo Doll Descriptions
+    tags: []
+    body:
+      - ''
+  - title: Voodoo Doll Effects
+    tags: []
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+26:
+  title: Pay the Piper
+  id: 26
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: How to Complete the Ritual
+    tags:
+      - how-to
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+27:
+  title: Amok Flesh
+  id: 27
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: The Blob
+    tags: []
+    body:
+      - ''
+  - title: Blobpersons
+    tags: []
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+28:
+  title: Ring of King Solomon
+  id: 28
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: Demons Must Do This...
+    tags: []
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+29:
+  title: Frankenstein's Legacy
+  id: 29
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: Frankenstein's Monster
+    tags: []
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+30:
+  title: Tomb of Dracula
+  id: 30
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: You Must Do This On Your Turn
+    tags: []
+    body:
+      - ''
+  - title: Vampires
+    tags: []
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+31:
+  title: It's Alive!
+  id: 31
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: Antibodies
+    tags: []
+    body:
+      - ''
+  - title: The House
+    tags: []
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+32:
+  title: Lost
+  id: 32
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: How to Stop the Heroes
+    tags:
+      - how-to
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+33:
+  title: Creature from the Lake
+  id: 33
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: You Must Do This On Your Turn
+    tags: []
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+34:
+  title: Mad, Mad World
+  id: 34
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: Servants
+    tags: []
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+35:
+  title: Small Change
+  id: 35
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: Being Small
+    tags: []
+    body:
+      - ''
+  - title: Cats
+    tags: []
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+36:
+  title: Better with Friends
+  id: 36
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: You Must Do This On Your Turn
+    tags: []
+    body:
+      - ''
+  - title: Flooding
+    tags: []
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+37:
+  title: Checkmate
+  id: 37
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: Death Must Do This On Its Turn
+    tags: []
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+38:
+  title: Hellbeasts
+  id: 38
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: You Must Do This On Your Turn
+    tags: []
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+39:
+  title: The Heir
+  id: 39
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: Using Your Assassins
+    tags: []
+    body:
+      - ''
+  - title: You Must Do This On Your Turn
+    tags: []
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+40:
+  title: Buried Alive
+  id: 40
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: You Must Do This On Your Turn
+    tags: []
+    body:
+      - ''
+  - title: The Spirit Board
+    tags: []
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+41:
+  title: Invisible Traitor
+  id: 41
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: How to Move
+    tags:
+      - how-to
+    body:
+      - ''
+  - title: Stealing Items
+    tags: []
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+42:
+  title: Comes the Hero
+  id: 42
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: How to Open the Gate to Hell
+    tags:
+      - how-to
+    body:
+      - ''
+  - title: Coping with Immortality
+    tags: []
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+43:
+  title: A Gathering of Shadows
+  id: 43
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: Shadows
+    tags: []
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+44:
+  title: Death Doth Find Us All
+  id: 44
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: At The End Of Your Turn
+    tags: []
+    body:
+      - ''
+  - title: Feeding off Death
+    tags: []
+    body:
+      - ''
+  - title: The Medallion
+    tags: []
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+45:
+  title: Tick, Tick, Tick
+  id: 45
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: The Big Bomb
+    tags: []
+    body:
+      - ''
+  - title: You Must Do This On Your Turn
+    tags: []
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+46:
+  title: The Feast
+  id: 46
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: Feasting
+    tags: []
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+47:
+  title: Worm Ouroboros
+  id: 47
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: Special Attack Rules
+    tags:
+      - special-attack-rules
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+48:
+  title: Stacked Like Cordwood
+  id: 48
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: Crimson Jack
+    tags: []
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+49:
+  title: You Wear It Well
+  id: 49
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: How the Spirit Inhabits a Body
+    tags: []
+    body:
+      - ''
+  - title: Astral Spirit
+    tags: []
+    body:
+      - ''
+  - title: Defeating Explorers' Souls
+    tags: []
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 
+50:
+  title: A Little Night Murder
+  id: 50
+  flavor:
+    - ''
+  sections:
+  - title: Right Now
+    tags:
+      - right-now
+    body:
+      - ''
+  - title: What You Know About the Heroes
+    tags:
+      - what-you-know
+    body:
+      - ''
+  - title: You Win When...
+    tags:
+      - you-win-when
+    body:
+      - ''
+  - title: Servants
+    tags: []
+    body:
+      - ''
+  - title: You Must Do This On Your Turn
+    tags: []
+    body:
+      - ''
+  - title: If You Win...
+    tags:
+      - if-you-win
+    body:
+      - ''
+  - title: 
+    tags:
+      - monster-stats
+      - boss-monster
+    stats:
+      speed:     
+      might:     
+      sanity:    
+      knowledge: 

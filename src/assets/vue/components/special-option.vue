@@ -1,5 +1,5 @@
 <template id="special-option">
-  <li class="special-option" :class="[isChosen?'chosen-option':'not-chosen']">
+  <li class="special-option" :class="[chosenId < 0 ? '' : isChosen?'chosen-option':'not-chosen']">
     <label class="item-content item-radio">
       <input type="radio" name="special-option" :value="optionId" @change="updateChosenSpecialOption()" :disabled="chosenId != -1" />
       <i class="icon icon-radio"></i>
@@ -28,9 +28,18 @@
   export default {
     name: 'special-option',
     props: ['optionId', 'option', 'characterId'],
-    // watchers: {
-
-    // },
+    watch: {
+      chosenId (newChosenId) {
+        if (newChosenId < 0) {
+          this.$el.querySelector("input[type='radio']").checked = false
+        } else if (newChosenId == this.optionId) {
+          var charStats = this.characters[this.characterId].stats
+          for(let [statName, statMod] of Object.entries(this.option.stats)) {
+            this.$store.dispatch('updateCharacterStat', {characterId: this.characterId, statId: statName, delta: statMod});
+          }
+        }
+      }
+    },
     computed: {
       checked () {
         return this.characters[this.characterId].special.chosen == this.optionId ? "checked" : "false"
