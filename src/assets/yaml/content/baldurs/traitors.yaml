@@ -1,6 +1,7 @@
 baldurs:
   1:  name:   Do Beholders Dream of Electric Eye Rays?  
       author: Ben Petrisor 
+      style:  normal
       flavor:
         - Your master, the beholder Brakxus, descends from above, its slimy eyestalks seeking a target.
         - "What is your bidding, my master?" you ask.
@@ -21,8 +22,8 @@ baldurs:
         - title: You Win When...
           style: list-or
           body:
-            - you have killed all the heroes
-            - the number of Beholderkin on the board equals the number of adventurers.
+            - ...you have killed all the heroes
+            - ...the number of Beholderkin on the board equals the number of adventurers.
         - title: You Must Do This at the Start of Your Turn
           body:
             - If the Beholder is asleep (it's flipped to its "S" side), flip its token back over.
@@ -82,6 +83,7 @@ baldurs:
             - You are surrounded by your master and its brood. "You have served me well." Brakxus says, as its eyes takein the corpses of your former comrades. "Soon Baldur's Gate will fall, and all will serve Brakxus!"
   2:  name:   Glurk Rises  
       author: Adam Lee
+      style:  normal
       flavor:
         - You finally reveal your previous self to be an illusion. It's goblin time!
       sections:
@@ -129,97 +131,1966 @@ baldurs:
             - You stand defiant with your swarms of goblins, all united under your iron fist, their eyes filled with bloodlust and awaiting your commands. Buildings are ablaze and the sounds of people in panic fill your pointy ears with glee. You shriek with goblin fury, "Tonight we crush the humans! Tonight we feast on the bones of Baldur's Gate!"
   3:  name:   Hulking Vengeance  
       author: Adam Lee
+      style:  no-traitor
+      text:
+        - This haunt has no traitor — only heroes.
+        - You are all trying to stop the rampaging Umber Hulk.
+        - The rest of the rules for this haunt are in the _Secrets of Survival_
   4:  name:   Troll Hunt!  
       author: Ben Petrisor
+      style:  no-traitor
+      text:
+        - This haunt has no traitor — only heroes.
+        - All of the heroes are working together to defeat the Troll.
+        - The rest of the rules for this haunt are in the _Secrets of Survival_
   5:  name:   Labyrinth  
       author: Chris Dupuis
+      style:  normal
+      flavor:
+        - Your monstrous instincts arise, and fill your being with rage and the desire for blood.
+        - Intruders have entered your labyrinth.
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - You have been killed by the Minotaur, your body moved to a far-off area of the labyrinth. Remove your adventurer figure from the board and discard all cards under your control. You are now playing the Minotaur.
+            - Get the large Minotaur monster token and collect a number of small monster tokens equal to the number of adventurers + 1 (representing the hit points of the Minotaur). Also get a triangular quest token (representing the labyrinth key).
+            - Get the Turn/Damage track and place the slider on 5.
+            - If there are fewer than 8 catacomb tiles on the board (including the Catacomb Landing/Kitchen Basement start tile), draw and place tiles from the catacomb stack until there are 8 catacomb tiles on the board.
+            - You may rearrange all of the catacomb tiles in any order you want, placing the quest token on a tile as far from teh Kitchen Basement as possible. Tiles must be placed in such a way that no tile is cut off from the Kitchen Basement, and there is at least one open doorway on the catacomb level. Place the Minotaur token on any catacomb tile (probably near the key).
+        - title: What You Know About the Heroes
+          body:
+            - They have entered your domain to steal one of the keys to your labyrinth and undo all of your hard work. Unfortunately, you know your labyrinth better than anyone.
+        - title: You Win When...
+          style: list-or
+          body:
+            - ...the Turn/Damage track reaches 0 while you are still alive and the key has not been returned to the city level.
+            - ...all the heroes have been killed.
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - Move the slider on the Turn/Damage track down to the next lowest number. If the slider reaches 0, you win!
+        - title: Rearranging the Labyrinth
+          body:
+            - Once during your turn, you may make a Sanity check and rotate or shift (see below) up to as many tiles as the result to rearrange the labyrinth. Once you have completed rearranging the labyrinth, make sure that no tile is cut off from the Kitchen Basement, and there is at least one open doorway.
+        - title: Rotating a Tile
+          body:
+            - To rotate a tile, pick it up, turn it one or more sides, and place it back down where it began.
+        - title: Shifting a Tile
+          body:
+            - To shift a tile (or group of tiles at once) detach one tile from adjacent connected tile and move it to another door on the same tile. If detaching a tile also detaches a group of tiles beyond it, you may connect any tile in that detached group to the previously connected tile. This counts as one shift.
+            - style: image
+              url: 05-minotaur-shift.png
+        - title: Minotaur
+          style: monster-block
+          icon:  minotaur
+          stats:
+            might: 6
+            speed: 3
+            knowledge: 3
+            sanity: 3
+          rules: 
+            - title: Special Charging Attack Rules
+              body:
+                - Instead of moving and attacking normally, you may make a charging attack once per turn. if the heroes have collected the key, your rage allows you to now charge twice per turn.
+                - To charge, move in a straight direction through open doors, as far as you like regardless of Speed, making an attack against each hero whose tile you enter or exit (one attack per hero per charge).
+            - title: Damaging the Minotaur
+              body:
+                - Ignore the normal stun rules for monsters. If the Minotaur takes 2 or more damage from a single effect (normally an attack), remove a small monster token from in front of you. If you don't have a small monster token to remove, the Minotaur is killed and the heroes win!
+        - title: If You Win...
+          body:
+            - Your rage subsides as you pull your greataxe from the pile of gore that was once a "hero". No matter — the labyrinth will always claim more fools to slake your thirst for slaughter.
   6:  name:   The Gulthias Tree  
       author: Christ Tulach & Kat Kruger
+      style:  normal
+      flavor:
+        - The derelict shrine would be a sad sight if not for the rich foliage that marks nature's resolve to reclaim its purchase on this artificial space. You wander toward a moss-covered altar, drawn by an urge to kneel before it. There you reach down and unearth a mass of roots.
+        - At once, whispers fill your mind and you're struck by visions of an unnaturally gnarled tree of magnificent proportions. It drinks darkness from the very soil beneath your feet, rising from an unseen grotto underground. The vines that long ago took over this place caress your ankles, sending shivers up your legs.
+        - The whispers from before are clear to you now as you utter them aloud. "Sow the seeds... sow the seeds of the Gulthias Tree."
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+            - If your Might and/or Knowledge are below their starting values, reset them to their starting values.
+            - Gain 1 Might and 2 Knowledge.
+            - Collect some small monster tokens and put them in a pile near the board, representing Vine Blights.
+            - Collect the square Obstacle tokens and set aside 3 of them (or 4 if there are 5 or more adventurers). These represent Branches.
+            - Place the Branch tokens on the board so that each is at least 4 tiles away from the others. Treat any sewer grate tiles as connected to the Catacomb landing, and paired tiles with stairs (such as the Kitchen and the Kitchen Basement) as connected to each other. If that isn't possible, draw and place tiles of the appropriate level until there are enough to place all the Branch tokens. Then place 2 Vine Blight tokens on each tile containing a Branch.
+        - title: What You Know About the Heroes
+          body:
+            - They're trying to cut down the Branches and prune back your Vine Blights, preventing the growth of the Gulthias Tree.
+        - title: You Win When...
+          style: list-or
+          body:
+            - ...2 Branches are connected by unstunned Vine Blights.
+            - ...all the heroes are killed.
+        - title: You Must Do This at the Start of Each Adventurer's Turn
+          body:
+            - Remove any Vine Blights that aren't connected to a Branch from the board. To be connected, each tile between the Vine Blight and a Branch (including the Branch's tile) must contain a Vine Blight.
+            - Then, move each stunned Vine Blight 1 tile closer to the Branch it is connected to. If this movement causes any Vine Blights to become unconnected, they also each move 1 tile closer to the previously connected Branch.
+        - title: Connected Branches
+          body:
+            - To connect Branches, there must be at least 1 unstunned Vine Blight on each of the tiles containing those Branches, and on every tile in between. Treat any sewer grate tiles as connected to the Catacomb Landing, and paired tiles with stairs as connected to each other, for this purpose.
+        - title: Cultivating More Branches
+          body: 
+            - Instead of attacking, you may coax a new Branch into the world. You must be on a tile that is at least 4 tiles away from existing Branch tokens. Attempt a Knowledge 4+ roll, increasing the difficulty by 1 for each hero on your tile. If successful, place a new Branch token and 2 stunned Vine Blights on your tile.
+            - Branches cannot be moved or placed. They are considered opponents to the heroes for the purposes of attacks, but they do not impede movement.
+        - title: Vine Blight
+          style: monster-block
+          icon:  vine-blight
+          stats:
+            might: 3
+            speed: 1
+            knowledge: 2
+            sanity: 2
+          rules: 
+            - title: Growing More Vine Blights
+              body:
+                - During the monster turn, Vine Blights may multiply if 2 or more are on the same tile. Instead of attacking, 2 Vine Blights on a tile may combine their Might values to attempt a Might roll of 6+. If successful, place another Vine Blight token on the tile. It cannot move, attack, or multiply on the turn it is created.
+            - title: Protecting the Branches
+              body:
+                - Heroes will attempt to destroy Branches with Might 5+ rolls. However, every 2 unstunned Vine Blights on a Branch's tile increases the difficulty of this roll by 1.
+        - title: If You Win...
+          body:
+            - Having fulfilled your part, you turn your palms out in supplication, and the vines wrap around your body in an unholy embrace. You become one with the dark horror, seeing through the eyes of the Gulthias Tree. Slithering creepers cover the walls of Baldur's Gate in an all-consuming hunger. The sweet slumber of death comes to everything in your path.
   7:  name:   Tonight's Special: Brains!  
       author: Adam Lee
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   8:  name:   Staking you Claim  
       author: Adam Lee
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   9:  name:   Alone Against the Dead  
       author: Adam Lee
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   10: name:   Rabble Rousers  
-      author: Mike Mearls 
+      author: Mike Mearls
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   11: name:   You'll have the House Slaad with that 
-      author: Sam Simpson 
+      author: Sam Simpson
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   12: name:   Blackrazor  
       author: Bart Carroll
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   13: name:   Juiblex Commands  
-      author: Chris Dupuis 
+      author: Chris Dupuis
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   14: name:   The Battle For Baldur's Gate  
       author: Mike Mearls
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   15: name:   Vermin Sweep  
       author: Adam Lee
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   16: name:   Need a Hand?  
-      author: Mike Mearls 
+      author: Mike Mearls
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   17: name:   An Eye in the Sky  
       author: Mike Mearls
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   18: name:   Rats on a Pier  
       author: Chris Dupuis
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   19: name:   Thick as Thieves  
       author: David Mcdarby
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   20: name:   They Hide Among Us  
-      author: Chris Dupuis 
+      author: Chris Dupuis
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   21: name:   Priscilla  
       author: Adam Lee
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   22: name:   Battle of the Bhaalspawn  
       author: Adam Lee
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   23: name:   The Piper of Bhaal  
       author: Adam Lee
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   24: name:   A Pufflebird in the Hand...  
       author: Adam Lee
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   25: name:   For the Glory of Tyr   
       author: Dan Fairchild & Diane Molinari
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   26: name:   Call of the Draakhorn  
       author: Ben Petrisor
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   27: name:   Ravenloft Calls  
       author: Mike Mearls
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   28: name:   The Mad Wizards   
       author: Adam Lee
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   29: name:   Bottle Lightning  
       author: Adam Lee
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   30: name:   Darkness Falls  
       author: Chris Dupuis
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   31: name:   Pipes of the Banshee  
       author: Christ Dupuis
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   32: name:   Sphere of Annihilation  
       author: Chris Dupuis
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   33: name:   The Will of Yeenoghu  
-      author: Ben Petrisor 
+      author: Ben Petrisor
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   34: name:   Two Heads are Worse than One  
-      author: Ben Petrisor 
+      author: Ben Petrisor
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   35: name:   A Mother's Fury  
       author: Dan Fairchild & Diane Molinari
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   36: name:   The Big Score  
       author: Adam Lee
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   37: name:   A Killer Among Us  
       author: Chris Dupuis
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   38: name:   Fire in the Sky  
       author: Chris Dupuis
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   39: name:   The Death Curse  
       author: Chris Dupuis
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   40: name:   Infernal Machine  
       author: Bart Carroll
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   41: name:   Hail Olhydra!  
       author: Bart Carroll
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   42: name:   Rust Monsters to the Rescue!   
       author: Bart Carroll
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   43: name:   Stickleback  
       author: Adam Lee
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   44: name:   By the Light of the Pale Moon  
-      author: Adam Lee 
+      author: Adam Lee
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   45: name:   Forever Mead  
       author: Michael Dunlap
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   46: name:   Master of Illusion  
       author: Chis Tulach & Kat Kruger
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   47: name:   The Mark of Baphomet  
       author: Tyson Moyer
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   48: name:   Demon Slayers  
       author: Michael Dunlap
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   49: name:   The Dark Light of Bhaal  
       author: Kim Lundstrom
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: You Must Do This at the Start of Your Turn
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
   50: name:   Down to the Wire  
-      author: Noah Millrod 
+      author: Noah Millrod
+      style:  normal
+      flavor:
+        - 
+      sections:
+        - title: Right Now
+          style: list
+          body:
+            - For this haunt, the traitor stays in the room while the heroes exit to read and discuss their strategy.
+            - Your adventurer is still in the game but has turned traitor.
+        - title: What You Know About the Heroes
+          body:
+            - 
+        - title: You Win When...
+          style: list-or
+          body:
+            - 
+        - title: 
+          style: monster-block
+          icon:  
+          stats:
+            might: 
+            speed: 
+            knowledge: 
+            sanity: 
+          rules: 
+            - title: Special Attack Rules
+              body:
+                - 
+        - title: If You Win...
+          body:
+            - 
