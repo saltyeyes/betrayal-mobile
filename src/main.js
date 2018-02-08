@@ -23,15 +23,18 @@ import AppStyles from './assets/sass/main.scss'
 
 import BetrayalIcons from './assets/sass/betrayal-icons.scss'
 
+import fontawesome from '@fortawesome/fontawesome'
+
 // Import Routes
 import Routes from './routes.js'
 
 // Import App Component
 import App from './main.vue'
-import CharacterGrid from './assets/vue/components/character-grid.vue'
-import CharacterList from './assets/vue/components/character-list.vue'
-import StatTracker   from './assets/vue/components/stat-tracker.vue'
-import CharacterPage from './assets/vue/pages/character.vue'
+import CharacterGrid  from './assets/vue/components/character-grid.vue'
+import CharacterList  from './assets/vue/components/character-list.vue'
+import StatTracker    from './assets/vue/components/stat-tracker.vue'
+import CharacterPage  from './assets/vue/pages/character.vue'
+import HauntTablePage from './assets/vue/pages/haunt-table.vue'
 
 import store from './store'
 
@@ -70,6 +73,10 @@ new Vue({
       {
         path: '/char/:charId',
         component: CharacterPage
+      },
+      {
+        path: '/haunt',
+        component: HauntTablePage
       }
     ]
 

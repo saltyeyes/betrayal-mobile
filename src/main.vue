@@ -27,6 +27,9 @@
             <f7-link icon-if-ios="f7:menu" icon-if-md="material:menu" panel-open="left"></f7-link>
           </f7-nav-left>
           <f7-nav-title>Betrayal</f7-nav-title>
+          <f7-nav-right>
+            <f7-link href="/haunt" :animate="false"><i class="btray-omen" style="font-size: 2.2em; color: black;"></i></f7-link>
+          </f7-nav-right>
         </f7-navbar>
         <f7-block-title>Baldur's Gate Characters:</f7-block-title>
         <character-grid></character-grid>
@@ -41,7 +44,7 @@
 	import CharacterList from './assets/vue/components/character-list.vue'
 	import CharacterPage from './assets/vue/pages/character.vue'
 
-	import { f7List, f7ListItem, f7Navbar, f7Statusbar, f7Panel, f7Page, f7Block, f7BlockTitle, f7View, f7NavLeft, f7Link, f7NavTitle, f7Row, f7Col, f7Card, f7CardHeader, f7CardContent, f7CardFooter } from 'framework7-vue';
+	import { f7List, f7ListItem, f7Navbar, f7Statusbar, f7Panel, f7Page, f7Block, f7BlockTitle, f7View, f7NavLeft, f7NavRight, f7Link, f7NavTitle, f7Row, f7Col, f7Card, f7CardHeader, f7CardContent, f7CardFooter } from 'framework7-vue';
 
 
 	export default {
@@ -49,7 +52,7 @@
 	    CharacterGrid,
 	    CharacterList,
 	    CharacterPage,
-	    f7List, f7ListItem, f7Navbar, f7Statusbar, f7Panel, f7Page, f7Block, f7BlockTitle, f7View, f7NavLeft, f7Link, f7NavTitle, f7Row, f7Col, f7Card, f7CardHeader, f7CardContent, f7CardFooter
+	    f7List, f7ListItem, f7Navbar, f7Statusbar, f7Panel, f7Page, f7Block, f7BlockTitle, f7View, f7NavLeft, f7NavRight, f7Link, f7NavTitle, f7Row, f7Col, f7Card, f7CardHeader, f7CardContent, f7CardFooter
 	  }
 	}
 </script>
