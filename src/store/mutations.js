@@ -35,3 +35,11 @@ export const UPDATE_CHOSEN_SPECIAL_OPTION = (state, {characterId, optionId}) => 
   var character = state.characters[characterId.toString()]
   character.special.chosen = optionId
 }
+
+export const UPDATE_SELECTED_OMEN = (state, {omenId}) => {
+  state.hauntTable.selectedOmen = omenId;
+}
+
+export const UPDATE_SELECTED_TILE = (state, {tileId}) => {
+  state.hauntTable.selectedTile = tileId;
+}

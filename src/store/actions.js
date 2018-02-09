@@ -17,3 +17,11 @@ export const resetCharacter  = ({ commit }, payload) => {
 export const updateChosenSpecialOption  = ({ commit }, payload) => { 
   commit('UPDATE_CHOSEN_SPECIAL_OPTION', payload)
 }
+
+export const updateSelectedOmen  = ({ commit }, payload) => { 
+  commit('UPDATE_SELECTED_OMEN', payload)
+}
+
+export const updateSelectedTile  = ({ commit }, payload) => { 
+  commit('UPDATE_SELECTED_TILE', payload)
+}

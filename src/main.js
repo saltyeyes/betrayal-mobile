@@ -24,6 +24,9 @@ import AppStyles from './assets/sass/main.scss'
 import BetrayalIcons from './assets/sass/betrayal-icons.scss'
 
 import fontawesome from '@fortawesome/fontawesome'
+import faBolt from '@fortawesome/fontawesome-free-solid/faBolt'
+
+fontawesome.library.add(faBolt)
 
 // Import Routes
 import Routes from './routes.js'

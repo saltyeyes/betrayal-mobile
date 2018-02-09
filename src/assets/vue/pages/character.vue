@@ -6,8 +6,8 @@
       </f7-nav-left>
       <f7-nav-title>{{ characterInfo.name }}</f7-nav-title>
       <f7-nav-right>
-        <f7-link href="/haunt" icon-if-ios="fa:bolt" icon-if-md="fa:bolt"></f7-link>
         <f7-link icon-if-ios="f7:menu" icon-if-md="material:settings_backup_restore" @click="resetCharacter({characterId})"></f7-link>
+        <f7-link href="/haunt" icon-fa="bolt fa-fw"></f7-link>
       </f7-nav-right>
     </f7-navbar>
     <div class="card character-info">

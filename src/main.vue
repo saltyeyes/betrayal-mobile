@@ -28,7 +28,7 @@
           </f7-nav-left>
           <f7-nav-title>Betrayal</f7-nav-title>
           <f7-nav-right>
-            <f7-link href="/haunt" :animate="false"><i class="btray-omen" style="font-size: 2.2em; color: black;"></i></f7-link>
+            <f7-link href="/haunt" icon-fa="bolt fa-fw"></f7-link>
           </f7-nav-right>
         </f7-navbar>
         <f7-block-title>Baldur's Gate Characters:</f7-block-title>

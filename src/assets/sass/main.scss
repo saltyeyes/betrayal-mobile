@@ -474,3 +474,9 @@ $colorsMd: (
     }
   }
 }
+
+.smart-select-popover {
+  .disabled {
+    display: none;
+  }
+}
